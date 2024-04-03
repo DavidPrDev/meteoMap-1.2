@@ -1,0 +1,19 @@
+::placeholder {
+    color: white;
+    
+  }
+  .btn-outline-primary{
+    border-radius:15px !important ;
+    border: 2px solid !important;
+    margin-left: -45px !important;
+    margin-bottom: 2px;
+    z-index: 999 !important;
+  }
+  .spinerSearch{
+    position: absolute;
+    z-index: 1900;
+    margin-left: 7%;
+    width: 2.5rem; 
+    height: 2.5rem;
+    margin-top: 3%;
+  }

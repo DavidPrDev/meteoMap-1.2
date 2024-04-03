@@ -1,0 +1,54 @@
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+    background-color: #77a7e7 !important;
+}
+.header{
+    background-color: rgb(85, 85, 117);
+    height: 70px;
+    
+}
+.center{
+    height: 85vh;
+    
+}
+.footer{
+    height: 5vh;
+    background-color: rgb(85, 85, 117);
+    text-align: center;
+}
+#autocomplete{
+  margin-top: 2%;
+  background-color:rgb(85, 85, 117) !important;
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  border-radius: 0px !important;
+  color: white;
+}
+#autocomplete::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+    display: block;
+    z-index: 3;
+    
+    }
+.table-wrapper-scroll-y {
+display: block;
+
+}
+#containerli{
+    height: 200px !important;
+    border-radius: 10px;
+}
+td{
+    cursor: pointer;
+}
+
+

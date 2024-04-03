@@ -14,15 +14,18 @@ class CodigoMunicipioController
     {
         $this->mapaDataService = $mapaDataService;
     }
-
-
     public function index()
+    {
+        return view('index');
+    }
+
+    public function getComunidades()
     {
         $arrayComunidades = config('ComunidadesConstants');
 
         $arrayOutput = $this->mapaDataService->obtenerDatosMeteorologicos($arrayComunidades);
 
-        return view('index', compact('arrayOutput'));
+        return response()->json($arrayOutput);
     }
 
 

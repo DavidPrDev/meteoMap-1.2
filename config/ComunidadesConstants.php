@@ -8,5 +8,6 @@ return [
     ["Nombre" => "Zaragoza", "Codigo" => 50297], ["Nombre" => "Barcelona", "Codigo" => "08019"],
     ["Nombre" => "Valencia", "Codigo" => 46250], ["Nombre" => "Toledo", "Codigo" => 45168],
     ["Nombre" => "Murcia", "Codigo" => 30030], ["Nombre" => "Sevilla", "Codigo" => 41091],
-    ["Nombre" => "Merida", "Codigo" => "06083"]
+    ["Nombre" => "Merida", "Codigo" => "06083"], ["Nombre" => "Palma", "Codigo" => "07040"],
+    ["Nombre" => "Tenerife", "Codigo" => 38038]
 ];
