@@ -43,7 +43,7 @@
 ## Sobre el proyecto 
 
 
-Meteomap es una aplicación meteorológica construida en laravel y react como frontal ,consumiendo la API rest de <a href="[#Caracteristicas Api](https://opendata.aemet.es/centrodedescargas/inicio)">AEMET Open data</a>.
+Meteomap es una aplicación meteorológica construida en laravel y react como frontal ,consumiendo la API rest de <a href="https://opendata.aemet.es/centrodedescargas/inicio">AEMET Open data</a>.
 
 
 <p align="right">(<a href="#readme-top">Volver al incio</a>)</p>
