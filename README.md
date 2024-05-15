@@ -1,66 +1,123 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<a name="readme-top"></a>
 
+<br />
+<div align="center">
+  <a href="https://github.com/DavidPrDev/meteoMap-1.2">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-pérez-romero-b8a57a292/)
+
+  <h3 align="center">Meteo map</h3>
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="img/meteoImg.png" alt="Texto alternativo de la imagen" width="400" height="200" style="border-radius:10px;">
+    
 </p>
+      <a href="https://meteomap.david-pr.com/">Visita la web </a>
+</div>
 
-## About Laravel
+<details>
+  <summary>Contenido de la aplicación</summary>
+  <ol>
+    <li>
+      <a href="#Sobre el proyecto">Sobre el proyecto</a>
+      <ul>
+        <li><a href="#Tecnologías empleadas">Tecnologías</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Empezando">Empezando</a>
+      <ul>
+        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#Backend"> Instalacion Backend </a>
+        <li><a href="#Frontend"> Instalacion Frontend </a>
+        <li><a href="#Características del proyecto">Caracteristicas</a></li>
+        <li><a href="#Documentación Swagger">Documentación Swagger</a></li>
+      </ul>
+    </li>
+   
+  </ol>
+</details>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<!-- ABOUT THE PROJECT -->
+## Sobre el proyecto 
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Meteomap es una aplicación meteorológica construida en laravel y react como frontal ,consumiendo la API rest de <a href="[#Caracteristicas Api](https://opendata.aemet.es/centrodedescargas/inicio)">AEMET Open data</a>.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="right">(<a href="#readme-top">Volver al incio</a>)</p>
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+### Tecnologías empleadas
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Este proyecto está construido con react como frontal y laravel mediante un asset bundle basico.
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* [![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/)
 
-## Code of Conduct
+* [![React](https://img.shields.io/badge/react-blue?logo=react)](https://es.reactjs.org/)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+* [![Mysql](https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue)](https://www.mysql.com/)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<p align="right">(<a href="#readme-top">Volver al incio</a>)</p>
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+<!-- GETTING STARTED -->
+## Empezando
+
+Para iniciar este proyecto necesitamos copiar el repositorio  instalar el backend y el frontend como se describe más adelante.
+
+### Prerrequisitos
+
+Empezaremos clonando el repositiorio .
+* clonar repositorio 
+  ```sh
+  git clone https://github.com/DavidPrDev/meteoMap-1.2.git
+  ```
+
+### Backend
+
+Para instalar el backend de laravel seguiremos estos pasos:
+
+1. Instalar laravel y los demas paquetes.
+   ```sh
+   composer install
+   ```
+
+2. Configurar el fichero .env con las credenciales de nuestra bd.
+
+3. Realizaremos las migraciones
+   ```sh
+   php artisan migrate
+   ```
+
+4. Cargar el script sql meteo-map-bd.sql que se encuentra en el repositorio , esto carga los códigos de los municipios , unos 8000 registros de todo el país necesarios para la api de aemet.
+
+      <p align="right">(<a href="#readme-top">Volver al incio</a>)</p>
+
+### Frontend
+
+Para instalar nuestro frontal de react ejecutaremos el siguiente comando:
+
+   ```sh
+   npm install
+   ```
+
+## Características del proyecto
+
+Algunas de las características más destacables del proyecto son :
+ 
+ * Asset bundle con react.
+
+ *Abstracción de servicios.
+
+ * Custom validator para validar los datos de aemet.
+
+
+<p align="right">(<a href="#readme-top">Volver al incio</a>)</p>
