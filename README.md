@@ -113,7 +113,7 @@ Algunas de las características más destacables del proyecto son :
  
  * Asset bundle con react.
 
- *Abstracción de servicios.
+ * Abstracción de servicios.
 
  * Custom validator para validar los datos de aemet.
 
