@@ -39,7 +39,6 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto 
 
 
@@ -66,7 +65,6 @@ Este proyecto está construido con react como frontal y laravel mediante un asse
 
 
 
-<!-- GETTING STARTED -->
 ## Empezando
 
 Para iniciar este proyecto necesitamos copiar el repositorio  instalar el backend y el frontend como se describe más adelante.
