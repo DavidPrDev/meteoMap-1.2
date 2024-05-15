@@ -9,10 +9,9 @@
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-pérez-romero-b8a57a292/)
 
   <h3 align="center">Meteo map</h3>
-<p align="center">
-    <img src="img/meteoImg.png" alt="Texto alternativo de la imagen" width="400" height="200" style="border-radius:10px;">
-    
-</p>
+  <p align="center">
+      <img src="img/meteoImg.png" alt="Texto alternativo de la imagen" width="400" height="200" style="border-radius:10px;">   
+  </p>
       <a href="https://meteomap.david-pr.com/">Visita la web </a>
 </div>
 
@@ -20,9 +19,9 @@
   <summary>Contenido de la aplicación</summary>
   <ol>
     <li>
-      <a href="#Sobre el proyecto">Sobre el proyecto</a>
+      <a href="#Sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
-        <li><a href="#Tecnologías empleadas">Tecnologías</a></li>
+        <li><a href="#Tecnologías-empleadas">Tecnologías</a></li>
       </ul>
     </li>
     <li>
@@ -31,8 +30,7 @@
         <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
         <li><a href="#Backend"> Instalacion Backend </a>
         <li><a href="#Frontend"> Instalacion Frontend </a>
-        <li><a href="#Características del proyecto">Caracteristicas</a></li>
-        <li><a href="#Documentación Swagger">Documentación Swagger</a></li>
+        <li><a href="#Características-del-proyecto">Caracteristicas</a></li>
       </ul>
     </li>
    
