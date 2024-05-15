@@ -1,7 +1,7 @@
 const getComunidades = async () => {
 
     try {
-        const response = await fetch('/getComunidades');
+        const response = await fetch('api/getComunidades');
         const data = await response.json();
 
         return data.original;
@@ -14,7 +14,7 @@ const getComunidades = async () => {
 const getMunicipio = async (codigo) => {
 
     try {
-        const response = await fetch("/municipio/" + codigo);
+        const response = await fetch("api/municipio/" + codigo);
 
         const data = await response.json();
         return data.original;
@@ -28,7 +28,7 @@ const autocomplete = async (string) => {
 
     try {
 
-        const response = await fetch("/autocomplete/" + string);
+        const response = await fetch("api/autocomplete/" + string);
         const data = await response.json();
         return data.original;
 
