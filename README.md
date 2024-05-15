@@ -10,7 +10,7 @@
 
   <h3 align="center">Meteo map</h3>
   <p align="center">
-      <img src="img/meteoImg.png" alt="Texto alternativo de la imagen" width="400" height="200" style="border-radius:10px;">   
+      <img src="img/meteoImg.png" alt="Texto alternativo de la imagen" width="400" height="200" >   
   </p>
       <a href="https://meteomap.david-pr.com/">Visita la web </a>
 </div>
