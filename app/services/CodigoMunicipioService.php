@@ -21,14 +21,14 @@ class CodigoMunicipioService
 
         $horaActual = intval(date("H"));
         $diferenciaHoras = $horaActual - $horaUltimaActualizacion;
-
+         $apiKey = env('EXTERNAL_API_KEY');
         if ($diferenciaHoras >= 6) {
 
             $arrayOutput = [];
 
             foreach ($arrayComunidades as $comunidad) {
 
-                $urlBase = "https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/" . $comunidad['Codigo'] . "/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJob21hMDBwdW5rQGdtYWlsLmNvbSIsImp0aSI6ImY1MWM5MTc5LTY2MDgtNDkxYi1hZmFmLWMzYWMxM2Y1MWRiMSIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNzAxMjYyNTg4LCJ1c2VySWQiOiJmNTFjOTE3OS02NjA4LTQ5MWItYWZhZi1jM2FjMTNmNTFkYjEiLCJyb2xlIjoiIn0.Rv-xLe8mCxIlnwnYHyVT21QO1PVi-vRhJCv-MMXsxB8";
+                $urlBase = "https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/" . $comunidad['Codigo'] . "/?api_key=".$apiKey;
 
 
                 $response = Http::get($urlBase);
